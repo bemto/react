@@ -1,0 +1,45 @@
+{
+  "name": "@bemto/react",
+  "version": "0.1.0-alpha.1",
+  "description": "Bemto props filtering and BEM implementation for React",
+  "author": "Roman Komarov <kizu@kizu.ru>",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "Readme.md",
+    "LICENSE"
+  ],
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.umd.js",
+  "scripts": {
+    "start": "rollup -c --watch",
+    "build": "rollup -c",
+    "build:testing": "rollup -c --environment TESTING:true",
+    "build:snapshots": "rollup -c --environment SNAPSHOTS:true",
+    "lint": "eslint src/**/*.js",
+    "test": "yarn build:testing && jest --passWithNoTests",
+    "prepublishOnly": "yarn lint && yarn build && yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bemto/react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bemto/react/issues"
+  },
+  "homepage": "https://github.com/bemto/react#readme",
+  "dependencies": {
+    "@bemto/core": "^0.1.0-alpha.4"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "devDependencies": {
+    "@bemto/dev-react-setup": "^0.1.0"
+  },
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "node"
+  }
+}
