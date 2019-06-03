@@ -1,6 +1,6 @@
 {
   "name": "@bemto/react",
-  "version": "0.1.0-alpha.3",
+  "version": "0.1.0-alpha.4",
   "description": "Bemto props filtering and BEM implementation for React",
   "author": "Roman Komarov <kizu@kizu.ru>",
   "license": "MIT",
