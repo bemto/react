@@ -1,6 +1,6 @@
 {
   "name": "@bemto/react",
-  "version": "0.1.0-alpha.2",
+  "version": "0.1.0-alpha.3",
   "description": "Bemto props filtering and BEM implementation for React",
   "author": "Roman Komarov <kizu@kizu.ru>",
   "license": "MIT",
@@ -30,7 +30,8 @@
   },
   "homepage": "https://github.com/bemto/react#readme",
   "dependencies": {
-    "@bemto/core": "^0.1.0-alpha.5"
+    "@bemto/core": "^0.1.0-alpha.6",
+    "@bemto/components": "^0.1.0-alpha.4"
   },
   "peerDependencies": {
     "react": "^16.8.0"
