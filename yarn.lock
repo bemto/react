@@ -676,10 +676,10 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@bemto/components@^0.1.0-alpha.4":
-  version "0.1.0-alpha.4"
-  resolved "https://registry.yarnpkg.com/@bemto/components/-/components-0.1.0-alpha.4.tgz#52f16d7e5aef587369732749d7289eea46527e27"
-  integrity sha512-Ds/ZyVPrd0QQpT6pUJoGsSAVPMFInRfgLLIv94ik4civMS+esJm/G8xUASieM40cDmGcEQ7eTz1si3hvgqQmBg==
+"@bemto/components@^0.1.0-alpha.5":
+  version "0.1.0-alpha.5"
+  resolved "https://registry.yarnpkg.com/@bemto/components/-/components-0.1.0-alpha.5.tgz#8d077e57f2316269ea5f26ab2d2dbe009a87c333"
+  integrity sha512-/ajbUKdhZvLCzVV5AkT9NyrbU04ZImV+2TdRuY6AIheYnjnQ0jOo/LQytPYG2iMEnGpxHdMFblqCphoXSq0Wiw==
 
 "@bemto/core@^0.1.0-alpha.6":
   version "0.1.0-alpha.6"
